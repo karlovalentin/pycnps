@@ -1,0 +1,3 @@
+Crontabs de volcar csv
+30 1 * * * python /var/www/python/volcarAP.py > /dev/null 2>&1
+* * * * * python /var/www/python/volcarES.py > /dev/null 2>&1
